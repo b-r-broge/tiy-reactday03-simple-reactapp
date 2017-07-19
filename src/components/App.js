@@ -9,11 +9,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="title">
-          <div className="App-header">
-            <EarthquakeInfo />
+          <div className="my-header">
+            EARTHQUAKES!
           </div>
-          <EarthquakeList />
         </div>
+        <div className="App-header">
+          <EarthquakeInfo />
+        </div>
+        <EarthquakeList />
       </div>
     );
   }
